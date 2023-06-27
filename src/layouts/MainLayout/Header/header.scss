@@ -1,0 +1,32 @@
+@mixin navlink-base {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header_wrapper {
+  width: 100vw;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 32px;
+  @media (min-width: 1200px) {
+    padding: 0px 72px;
+  }
+  .navlink_wrapper {
+    display: none;
+    gap: 30px;
+    @media (min-width: 1024px) {
+      display: flex;
+    }
+    .navlink {
+      @include navlink-base();
+      color: #000;
+    }
+    .navlink_active {
+      @include navlink-base();
+      color: #12724f;
+    }
+  }
+}
