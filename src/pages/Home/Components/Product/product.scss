@@ -1,6 +1,6 @@
 @import '@style';
 
-.product_wrapper {
+.product_wrapper_card {
   width: 100%;
   background-color: white;
   @include base-padding;
@@ -19,5 +19,12 @@
     color: #12724f;
     font-size: 40px;
     font-weight: 700;
+  }
+  .product_content_wrapper {
+    width: 100%;
+    display: grid;
+    row-gap: 72px;
+    column-gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(434px, 1fr));
   }
 }

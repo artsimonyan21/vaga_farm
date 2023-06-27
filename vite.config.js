@@ -13,6 +13,7 @@ export default defineConfig({
       '@assets': resolve(__dirname, './src/assets'),
       '@components': resolve(__dirname, './src/components'),
       '@style': resolve(__dirname, './src/global.scss'),
+      '@const': resolve(__dirname, './src/const'),
     },
   },
   server: {

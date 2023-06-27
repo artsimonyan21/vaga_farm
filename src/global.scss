@@ -45,3 +45,20 @@
     // padding-top: 78px;
   }
 }
+
+body {
+  &::-webkit-scrollbar {
+    display: block;
+    width: 6px;
+    background-color: none;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #12724f;
+    border-radius: 2px;
+  }
+}

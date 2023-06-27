@@ -1,0 +1,212 @@
+{
+  "bandages": [
+    {
+      "id": "1",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": true,
+      "width": 7.5,
+      "height": 7.5,
+      "count": 10,
+      "layers": 12
+    },
+    {
+      "id": "2",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    },
+    {
+      "id": "3",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 10,
+      "height": 10,
+      "count": 15,
+      "layers": 18
+    },
+    {
+      "id": "4",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": true,
+      "width": 7.5,
+      "height": 7.5,
+      "count": 10,
+      "layers": 12
+    },
+    {
+      "id": "5",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    },
+    {
+      "id": "6",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 6,
+      "height": 18,
+      "count": 5,
+      "layers": 2
+    }
+  ],
+  "tanziffs": [
+    {
+      "id": "3",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 10,
+      "height": 10,
+      "count": 15,
+      "layers": 18
+    },
+    {
+      "id": "1",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": true,
+      "width": 7.5,
+      "height": 7.5,
+      "count": 10,
+      "layers": 12
+    },
+    {
+      "id": "4",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": true,
+      "width": 7.5,
+      "height": 7.5,
+      "count": 10,
+      "layers": 12
+    },
+    {
+      "id": "2",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    },
+
+    {
+      "id": "5",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    },
+    {
+      "id": "6",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 6,
+      "height": 18,
+      "count": 5,
+      "layers": 2
+    }
+  ],
+  "napkins": [
+    {
+      "id": "6",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 6,
+      "height": 18,
+      "count": 5,
+      "layers": 2
+    },
+    {
+      "id": "3",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 10,
+      "height": 10,
+      "count": 15,
+      "layers": 18
+    },
+    {
+      "id": "4",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": true,
+      "width": 7.5,
+      "height": 7.5,
+      "count": 10,
+      "layers": 12
+    },
+    {
+      "id": "1",
+      "title": "բժշկական անձեռոցիկ  ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": true,
+      "width": 7.5,
+      "height": 7.5,
+      "count": 10,
+      "layers": 12
+    },
+    {
+      "id": "5",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    }
+  ],
+  "tops": [
+    {
+      "id": "2",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    },
+    {
+      "id": "3",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": false,
+      "steril": false,
+      "width": 10,
+      "height": 10,
+      "count": 15,
+      "layers": 18
+    },
+
+    {
+      "id": "5",
+      "title": "բժշկական անձեռոցիկ ոչ ՍՏԵՐԻԼ",
+      "individual": true,
+      "steril": false,
+      "width": 5,
+      "height": 5,
+      "count": 10,
+      "layers": 15
+    }
+  ]
+}
