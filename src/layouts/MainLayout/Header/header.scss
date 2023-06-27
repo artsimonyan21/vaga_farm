@@ -3,27 +3,25 @@
   font-weight: 700;
   text-decoration: none;
 }
-
+@import '@style';
 .header_wrapper {
   width: 100vw;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 16px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   background-color: white;
+  z-index: 10;
+  @include base-padding;
   .header_logo {
     width: 64px;
   }
-  @media (min-width: 1200px) {
-    padding: 0px 72px !important;
-  }
+
   @media (min-width: 1024px) {
-    padding: 0px 32px;
     height: 78px;
     .header_logo {
       width: 115px;

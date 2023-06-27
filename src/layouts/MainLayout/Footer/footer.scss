@@ -1,19 +1,20 @@
+@import '@style';
+
 .footer_wrapper {
   min-height: 342px;
-  padding: 0px 16px;
-  padding-top: 48px;
   background-color: #12724f;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  @include base-padding;
+  padding-top: 48px;
   padding-bottom: 18px;
+
   @media (min-width: 1200px) {
-    padding: 0px 72px !important;
     padding-top: 48px !important;
     padding-bottom: 18px !important;
   }
   @media (min-width: 1024px) {
-    padding: 0px 32px;
     padding-top: 48px !important;
     padding-bottom: 18px !important;
   }
