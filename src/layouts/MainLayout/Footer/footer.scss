@@ -1,0 +1,57 @@
+.footer_wrapper {
+  min-height: 342px;
+  background-color: #12724f;
+  display: flex;
+  flex-direction: column;
+  .footer_copy_right {
+    color: #fff;
+    font-size: 14px;
+    font-family: Bokonique;
+    font-weight: 300;
+    font-variant: all-small-caps;
+    line-height: 124%;
+    text-align: center;
+  }
+  .footer_content {
+    display: flex;
+    div {
+      width: calc(100% / 4);
+      .footer_titles {
+        color: #fff;
+        font-size: 24.75px;
+        font-variant: all-small-caps;
+      }
+    }
+    .footer_find_us {
+      div {
+        display: flex;
+        gap: 16px;
+        svg {
+          flex-shrink: 0;
+          margin-top: 54px;
+        }
+      }
+    }
+    .aaa {
+      text-decoration: none;
+    }
+    .footer_products {
+      ul {
+        li {
+          color: #ffffff;
+        }
+      }
+    }
+    .logo {
+      path {
+        fill: white;
+      }
+    }
+    .footer_contact {
+      p {
+        display: flex;
+        color: #fff;
+      }
+    }
+  }
+}
