@@ -1,3 +1,15 @@
 .content_wrapper {
+  padding: 0px 16px;
+  padding-top: 48px;
+
+  @media (min-width: 1200px) {
+    padding: 0px 72px !important;
+    padding-top: 78px !important;
+  }
+  @media (min-width: 1024px) {
+    padding: 0px 32px;
+    padding-top: 78px;
+  }
+
   background-color: red;
 }

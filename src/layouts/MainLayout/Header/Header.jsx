@@ -1,11 +1,18 @@
 import Logo from '@assets/logo.svg';
+import BurgerIcon from '@assets/burger_menu.svg';
 import './header.scss';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import BurgerMenu from './BurgerMenu';
 
 const Header = () => {
+  const [isBurgerMenuOpened, setIsBurgerMenuOpened] = useState(false);
+  const handleOpenClose = () => [setIsBurgerMenuOpened((prev) => !prev)];
   return (
     <div className="header_wrapper">
-      <Logo />
+      <NavLink to="/">
+        <Logo className="header_logo" />
+      </NavLink>
       <div className="navlink_wrapper">
         <NavLink to="/" className={({ isActive }) => (isActive ? 'navlink_active' : 'navlink')}>
           ԳԼԽԱՎՈՐ
@@ -36,6 +43,10 @@ const Header = () => {
           ՀԵՏԱԴԱՐՁ ԿԱՊ
         </NavLink>
       </div>
+      <button className="burger_button" onClick={handleOpenClose}>
+        <BurgerIcon />
+      </button>
+      {isBurgerMenuOpened && <BurgerMenu handleClose={() => setIsBurgerMenuOpened(false)} />}
     </div>
   );
 };

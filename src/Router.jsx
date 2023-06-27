@@ -5,6 +5,7 @@ import Products from '@pages/Products';
 import Services from '@pages/Services';
 import Error from '@pages/Error';
 import CoWorkers from './pages/CoWorkers';
+import ContactUs from './pages/ContactUs';
 
 const Router = () => {
   return (
@@ -14,7 +15,7 @@ const Router = () => {
       <Route element={<Products />} path="/products" />
       <Route element={<Services />} path="/services" />
       <Route element={<CoWorkers />} path="/co-workers" />
-      <Route element={<CoWorkers />} path="/contact-us" />
+      <Route element={<ContactUs />} path="/contact-us" />
       <Route element={<Error />} path="*" />
     </Routes>
   );
