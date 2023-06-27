@@ -1,0 +1,30 @@
+.card_wrapper {
+  width: 100%;
+  min-height: 558px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 100px 0px;
+  background: #f4f9ff;
+  .card_info_wrapper {
+    width: max-content;
+    height: 100%;
+    > h3 {
+      color: #12724f;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    > p {
+      max-width: 541px;
+      color: #1e1e1e;
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+  }
+  .card_img_wrapper {
+    flex-grow: 1;
+    height: 100%;
+    background-color: blue;
+  }
+}
