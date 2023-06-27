@@ -1,0 +1,11 @@
+.about_card_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+  //   margin-top: 175px;
+  div {
+    max-width: 647px;
+    max-height: 363px;
+  }
+}

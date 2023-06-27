@@ -1,0 +1,19 @@
+.about_wrapper {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    text-align: center;
+    color: #12724f;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 63px;
+    margin-bottom: 69px;
+  }
+  .about_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 175px;
+
+    margin-bottom: 258px;
+  }
+}
