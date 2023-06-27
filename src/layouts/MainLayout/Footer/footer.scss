@@ -1,8 +1,79 @@
 .footer_wrapper {
   min-height: 342px;
+  padding: 0px 16px;
+  padding-top: 48px;
   background-color: #12724f;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 18px;
+  @media (min-width: 1200px) {
+    padding: 0px 72px !important;
+    padding-top: 48px !important;
+    padding-bottom: 18px !important;
+  }
+  @media (min-width: 1024px) {
+    padding: 0px 32px;
+    padding-top: 48px !important;
+    padding-bottom: 18px !important;
+  }
+
+  .footer_content {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 24px;
+    gap: 64px;
+
+    @media (min-width: 640px) {
+      grid-template-columns: auto auto;
+      align-content: center;
+      justify-content: center;
+    }
+    @media (min-width: 1024px) {
+      grid-template-columns: auto auto auto auto;
+      justify-content: space-between;
+    }
+
+    .logo {
+      path {
+        fill: white;
+      }
+    }
+    .product_wrapper {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      li {
+        color: #fff;
+        font-size: 12px;
+      }
+    }
+    .contact_us_wrapper {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      > a {
+        display: flex;
+        gap: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        p {
+          color: #fff;
+          font-size: 12;
+          font-weight: 400;
+          white-space: nowrap;
+        }
+      }
+    }
+    .social_link_wrapper {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+  }
   .footer_copy_right {
     color: #fff;
     font-size: 14px;
@@ -11,47 +82,5 @@
     font-variant: all-small-caps;
     line-height: 124%;
     text-align: center;
-  }
-  .footer_content {
-    display: flex;
-    div {
-      width: calc(100% / 4);
-      .footer_titles {
-        color: #fff;
-        font-size: 24.75px;
-        font-variant: all-small-caps;
-      }
-    }
-    .footer_find_us {
-      div {
-        display: flex;
-        gap: 16px;
-        svg {
-          flex-shrink: 0;
-          margin-top: 54px;
-        }
-      }
-    }
-    .aaa {
-      text-decoration: none;
-    }
-    .footer_products {
-      ul {
-        li {
-          color: #ffffff;
-        }
-      }
-    }
-    .logo {
-      path {
-        fill: white;
-      }
-    }
-    .footer_contact {
-      p {
-        display: flex;
-        color: #fff;
-      }
-    }
   }
 }

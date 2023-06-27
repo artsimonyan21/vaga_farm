@@ -10,7 +10,6 @@ const Home = () => {
         buttonTitle="ԿԱՐԴԱԼ ԱՎԵԼԻՆ"
         imgSrc={ashxatakic}
       />
-      <img src="@assets/img/ashxatakic.png" alt="" />
     </div>
   );
 };

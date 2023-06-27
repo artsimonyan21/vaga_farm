@@ -7,6 +7,7 @@ import TvitterIcon from '@assets/tvitter.svg';
 import FaceboockIcon from '@assets/faceboock.svg';
 import './footer.scss';
 import Logo from '@assets/logo.svg';
+import FooterCard from './FooterCard';
 
 const Footer = () => {
   return (
@@ -15,9 +16,8 @@ const Footer = () => {
         <div>
           <Logo className="logo" />
         </div>
-        <div className="footer_products">
-          <h6 className="footer_titles">ԱՐՏԱԴՐԱՆՔ</h6>
-          <ul>
+        <FooterCard title="ԱՐՏԱԴՐԱՆՔ">
+          <ul className="product_wrapper">
             <NavLink className="aaa">
               <li>ՀԵՂՈՒԿՆԵՐ</li>
             </NavLink>
@@ -37,27 +37,29 @@ const Footer = () => {
               <li> ՄԱՇԿԻ ԽՆԱՄՔԻ ՄԻՋՈՑՆԵՐ</li>
             </NavLink>
           </ul>
-        </div>
-        <div className="footer_contact">
-          <h6 className="footer_titles">ԿԱՊ ՄԵԶ ՀԵՏ</h6>
-          <p>
-            <PhoneIcon /> Զանգահարեք մեզ: +374 90 000 000
-          </p>
-          <p>
-            <MessageIcon /> Էլ հասցե: @mail.ru
-          </p>
-          <p>
-            <LocationIcon /> Երևան
-          </p>
-        </div>
-        <div className="footer_find_us">
-          <h6 className="footer_titles">ՓՆՏՐԵՔ ՄԵԶ։</h6>
-          <div>
+        </FooterCard>
+        <FooterCard title="ԿԱՊ ՄԵԶ ՀԵՏ">
+          <div className="contact_us_wrapper">
+            <a href="tel:+374 98 960197">
+              <PhoneIcon /> <p>Զանգահարեք մեզ: +374 90 000 000</p>
+            </a>
+            <a href="mailto:vaga@gmail.com">
+              <MessageIcon />
+              <p>Էլ հասցե: @mail.ru</p>
+            </a>
+            <a>
+              <LocationIcon />
+              <p>Երևան</p>
+            </a>
+          </div>
+        </FooterCard>
+        <FooterCard title="ՓՆՏՐԵՔ ՄԵԶ։">
+          <div className="social_link_wrapper">
             <InstagramIcon />
             <TvitterIcon />
             <FaceboockIcon />
           </div>
-        </div>
+        </FooterCard>
       </div>
       <p className="footer_copy_right">By ArmCoding - © 2022 Բոլոր իրավունքները պաշտպանված են</p>
     </div>
