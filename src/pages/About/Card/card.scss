@@ -3,9 +3,48 @@
   align-items: center;
   justify-content: center;
   gap: 49px;
-  //   margin-top: 175px;
   div {
     max-width: 647px;
     max-height: 363px;
+  }
+
+  @media (max-width: 1250px) {
+    display: flex;
+    flex-direction: column;
+    .about_first_icon {
+      display: none;
+    }
+  }
+  .about_first_img_content {
+    position: relative;
+    img {
+      position: relative;
+      z-index: 5;
+    }
+    .about_first_icon {
+      width: 310px;
+      height: 310px;
+      transform: rotate(90deg);
+      position: absolute;
+      bottom: -170px;
+      left: -140px;
+      z-index: 0;
+    }
+  }
+  .about_second_img_content {
+    position: relative;
+    img {
+      position: relative;
+      z-index: 5;
+    }
+    .about_second_icon {
+      width: 310px;
+      height: 310px;
+      transform: rotate(18deg);
+      position: absolute;
+      bottom: -140px;
+      right: -35px;
+      z-index: 0;
+    }
   }
 }
