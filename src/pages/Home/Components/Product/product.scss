@@ -25,6 +25,11 @@
     display: grid;
     row-gap: 72px;
     column-gap: 32px;
-    grid-template-columns: repeat(auto-fit, minmax(434px, 1fr));
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(auto-fit, minmax(434px, 1fr));
+    }
   }
 }

@@ -1,0 +1,12 @@
+@import '@style';
+.co_workers_wrapper {
+  .co_workers_content_wrapper {
+    @include base-padding;
+    display: grid;
+    row-gap: 32px;
+    column-gap: 32px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 67px 0;
+  }
+}

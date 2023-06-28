@@ -1,6 +1,7 @@
 import Card from './Components/Card';
 import ashxatakic from '@assets/img/ashxatakic.png';
 import Product from './Components/Product';
+import CoWorkers from './Components/CoWorkers';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         buttonTitle="ԿԱՐԴԱԼ ԱՎԵԼԻՆ"
         imgSrc={ashxatakic}
       />
+      <CoWorkers />
     </div>
   );
 };

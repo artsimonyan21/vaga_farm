@@ -1,0 +1,36 @@
+@import '@style';
+
+@mixin navlink-base {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.product_page_wrapper {
+  width: 100%;
+  padding-top: 32px;
+  .navlink_wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-y: auto;
+    @include base-padding;
+    padding-bottom: 16px;
+    margin-bottom: 104px;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    .navlink {
+      @include navlink-base();
+      color: #000;
+    }
+    .navlink_active {
+      @include navlink-base();
+      color: #12724f;
+    }
+  }
+  .product_subpage_wrapper {
+    width: 100%;
+    @include base-padding;
+  }
+}

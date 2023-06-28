@@ -11,7 +11,7 @@ const Product = () => {
       <h4>ԱՐՏԱԴՐԱՆՔ</h4>
       <div className="product_content_wrapper">
         {bandages.map((props, index) => (
-          <ProductCard {...props} key={index} />
+          <ProductCard {...{ ...props, category: 'bandages' }} key={index} />
         ))}
       </div>
       <PrimaryButton text="ՏԵՍՆԵԼ ԱՄԲՈՂՋԸ" />

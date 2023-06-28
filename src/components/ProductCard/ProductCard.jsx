@@ -5,8 +5,9 @@ import WidthScaleIcon from '@assets/width_scale.svg';
 import LayerIcon from '@assets/layer.svg';
 import CountIcon from '@assets/count.svg';
 import './product_card.scss';
+import { Link } from 'react-router-dom';
 
-const ProductCard = ({ id, title, individual, steril, width, height, count, layers }) => {
+const ProductCard = ({ category, id, title, individual, steril, width, height, count, layers }) => {
   return (
     <div className="base_product_card_wrapper">
       {steril && <div className="is_steril_wrapper">ՍՏԵՐԻԼ</div>}
@@ -33,7 +34,9 @@ const ProductCard = ({ id, title, individual, steril, width, height, count, laye
           <p>{count} հատ</p>
         </div>
       </div>
-      <PrimaryButton text="ՏԵՍՆԵԼ Ավելին" />
+      <Link to={`/products/${category}/${id}`}>
+        <PrimaryButton text="ՏԵՍՆԵԼ Ավելին" />
+      </Link>
     </div>
   );
 };

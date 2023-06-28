@@ -23,7 +23,7 @@ const Header = () => {
           ՄԵՐ ՄԱՍԻՆ
         </NavLink>
         <NavLink
-          to="/products"
+          to="/products/bandages"
           className={({ isActive }) => (isActive ? 'navlink_active' : 'navlink')}>
           ԱՐՏԱԴՐԱՆՔ
         </NavLink>

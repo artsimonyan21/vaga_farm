@@ -39,7 +39,7 @@ const Footer = () => {
           </ul>
         </FooterCard>
         <FooterCard title="ԿԱՊ ՄԵԶ ՀԵՏ">
-          <div className="contact_us_wrapper">
+          <div className="footer_contact_us_wrapper">
             <a href="tel:+374 98 960197">
               <PhoneIcon /> <p>Զանգահարեք մեզ: +374 90 000 000</p>
             </a>

@@ -1,0 +1,54 @@
+.contact_us_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 78px;
+  gap: 259px;
+  margin-top: 106px;
+
+  div {
+    max-width: 550px;
+  }
+
+  .location_wrapper {
+    flex-shrink: 0;
+
+    p {
+      color: #1e1e1e;
+      font-size: 16px;
+    }
+  }
+
+  .contact_us_now {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 45px;
+    margin-bottom: 163px;
+
+    h3 {
+      color: #12724f;
+      font-size: 40px;
+      font-weight: 700;
+      font-variant: all-small-caps;
+      text-align: center;
+    }
+    input {
+      border-radius: 14px;
+      background: #d9d9d9;
+      height: 90px;
+      padding: 35px 0 35px 40px;
+      border: none;
+    }
+    textarea {
+      border-radius: 14px;
+      background: #d9d9d9;
+      height: 257px;
+      padding: 35px 0 35px 40px;
+      border: none;
+    }
+    button {
+      width: 235px;
+    }
+  }
+}
