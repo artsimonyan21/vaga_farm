@@ -1,7 +1,6 @@
 @import '@style';
 
 .footer_wrapper {
-  min-height: 342px;
   background-color: #12724f;
   display: flex;
   flex-direction: column;
@@ -21,14 +20,14 @@
 
   .footer_content {
     display: grid;
-    justify-content: center;
+    justify-items: center;
     margin-bottom: 24px;
     gap: 64px;
 
     @media (min-width: 640px) {
       grid-template-columns: auto auto;
       align-content: center;
-      justify-content: center;
+      justify-items: center;
     }
     @media (min-width: 1024px) {
       grid-template-columns: auto auto auto auto;
