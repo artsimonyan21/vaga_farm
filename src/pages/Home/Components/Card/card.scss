@@ -40,6 +40,9 @@
         font-size: 40px;
         font-weight: 700;
         margin-bottom: 40px;
+        @media (max-width: 450px) {
+          font-size: 24px;
+        }
       }
       > p {
         max-width: 541px;

@@ -2,6 +2,7 @@ import Card from './Components/Card';
 import ashxatakic from '@assets/img/ashxatakic.png';
 import Product from './Components/Product';
 import CoWorkers from './Components/CoWorkers';
+import ContactUs from '../../components/ContactUs';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         imgSrc={ashxatakic}
       />
       <CoWorkers />
+      <ContactUs />
     </div>
   );
 };

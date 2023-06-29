@@ -6,7 +6,6 @@
     row-gap: 32px;
     column-gap: 32px;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    margin: 67px 0;
+    grid-template-columns: repeat(auto-fit, minmax(432px, 1fr));
   }
 }

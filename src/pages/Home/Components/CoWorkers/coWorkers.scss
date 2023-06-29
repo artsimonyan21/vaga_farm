@@ -1,0 +1,40 @@
+@import '@style';
+
+.home_co_workers_section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 102px;
+  h3 {
+    color: #12724f;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    @media (max-width: 450px) {
+      font-size: 24px;
+    }
+  }
+
+  .home_co_workers_content_wrapper {
+    @include base-padding;
+    display: grid;
+    row-gap: 32px;
+    column-gap: 32px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(432px, 1fr));
+    margin: 67px 0;
+
+    @media (max-width: 450px) {
+      padding: 0;
+      grid-template-columns: repeat(auto-fit, minmax(302px, 1fr));
+
+      .co_worker_card_wrapper {
+        width: 300px;
+      }
+    }
+  }
+  .primary_button_wrapper {
+    margin: auto;
+  }
+}

@@ -4,7 +4,7 @@ import './style.scss';
 
 const MainLayout = ({ children }) => {
   return (
-    <div>
+    <div className="main_layout_wrapper">
       <Header />
       <div className="content_wrapper">{children}</div>
       <Footer />

@@ -19,6 +19,9 @@
     color: #12724f;
     font-size: 40px;
     font-weight: 700;
+    @media (max-width: 450px) {
+      font-size: 24px;
+    }
   }
   .product_content_wrapper {
     width: 100%;

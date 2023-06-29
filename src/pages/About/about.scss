@@ -1,7 +1,9 @@
+@import '@style';
 .about_wrapper {
   display: flex;
   flex-direction: column;
-  padding: 0 90px;
+  @include base-padding;
+
   h3 {
     text-align: center;
     color: #12724f;
@@ -9,12 +11,14 @@
     font-weight: 700;
     margin-top: 63px;
     margin-bottom: 69px;
+    @media (max-width: 450px) {
+      font-size: 24px;
+    }
   }
   .about_content_wrapper {
     display: flex;
     flex-direction: column;
     gap: 175px;
-
     margin-bottom: 258px;
   }
 }

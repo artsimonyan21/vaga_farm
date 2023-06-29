@@ -1,17 +1,35 @@
+@import '@style';
 .contact_us_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 78px;
   gap: 259px;
   margin-top: 106px;
+  @include base-padding;
 
+  @media (max-width: 1400px) {
+    gap: 80px;
+  }
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+  @media (max-width: 580px) {
+    div {
+      max-width: 320px !important;
+      .contact_map {
+        width: 320px;
+      }
+    }
+  }
   div {
     max-width: 550px;
   }
 
   .location_wrapper {
-    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 105px;
+    padding-bottom: 64px;
 
     p {
       color: #1e1e1e;
@@ -32,6 +50,9 @@
       font-weight: 700;
       font-variant: all-small-caps;
       text-align: center;
+      @media (max-width: 450px) {
+        font-size: 24px;
+      }
     }
     input {
       border-radius: 14px;

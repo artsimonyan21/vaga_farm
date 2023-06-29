@@ -10,7 +10,7 @@ const Card = ({ text, img, isReverce }) => {
             <img src={img} alt="" />
             <ElipseIcon className="about_first_icon" />
           </div>
-          <div>
+          <div className="about_text_wrapper">
             <p>{text}</p>
           </div>
         </>

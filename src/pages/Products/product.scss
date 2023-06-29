@@ -1,10 +1,16 @@
 @import '@style';
 
 @mixin navlink-base {
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  @media (min-width: 400px) {
+    font-size: 14px;
+  }
+  @media (min-width: 580px) {
+    font-size: 20px;
+  }
 }
 
 .product_page_wrapper {
@@ -18,7 +24,10 @@
     padding-bottom: 16px;
     margin-bottom: 104px;
     display: flex;
-    gap: 32px;
+    gap: 8px;
+    @media (min-width: 960px) {
+      gap: 32px;
+    }
     justify-content: center;
     .navlink {
       @include navlink-base();
